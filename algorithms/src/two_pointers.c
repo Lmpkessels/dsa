@@ -1,3 +1,8 @@
+/* Two pointers makes use of two indices, these are used to
+access a data structure (in this case an array) to find a target
+
+In this use case two pointers is used in two sum */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
