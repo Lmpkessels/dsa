@@ -54,4 +54,6 @@ int main(void)
     } else {
         printf("False\n");
     }
+
+    return 0;
 }
