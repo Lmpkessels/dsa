@@ -9,8 +9,31 @@ Is a repository that contains implemented data-structures and algorithms in C. T
 ## Installation
 
 ```bash
+# Get files locally
 git clone https://github.com/Lmpkessels/dsa.git
 cd dsa
+```
+
+## Usage
+
+```bash
+# Run Algorithm
+cd algorithms/filename
+gcc algorithm_name.c -o ../build/algorithm_name
+../build/./algorithm_name
+```
+
+```bash
+# Run Data-structure
+cd algorithms/filename
+gcc algorithm_name.c -o ../build/algorithm_name
+../build/./algorithm_name
+```
+
+```bash
+cd data_structures/filename
+gcc data_structure_name.c -o ../build/data_structure_name
+../build/./data_structure_name
 ```
 
 ## Progress
