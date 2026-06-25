@@ -24,13 +24,7 @@ gcc algorithm_name.c -o ../build/algorithm_name
 ```
 
 ```bash
-# Run Data-structure
-cd algorithms/filename
-gcc algorithm_name.c -o ../build/algorithm_name
-../build/./algorithm_name
-```
-
-```bash
+# Run Data-Structure
 cd data_structures/filename
 gcc data_structure_name.c -o ../build/data_structure_name
 ../build/./data_structure_name
