@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "quick_sort.h"
 
 void swap(int *a, int *b);
 
@@ -13,7 +14,7 @@ int partition(int arr[], int low, int high)
 
     /* Get the index for the partition and move indices
     less then the pivot to the left side */
-    for (j = low; arr[j] <= high - 1; j++) {
+    for (j = low; j <= high - 1; j++) {
         if (arr[j] < pivot) {
             i++;
             swap(&arr[i], &arr[j]);
@@ -56,15 +57,4 @@ void print_sorted_arr(int arr[], int n)
     }
 
     printf("\n");
-}
-
-int main(void)
-{
-    int arr[6] = {10, 5, 15, 12, 3, 0};
-
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    quick_sort(arr, 0, n - 1);
-
-    print_sorted_arr(arr, n);
 }
