@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "quick_sort.h"
+#include "print_array.h"
 
 void swap(int *a, int *b);
 
@@ -45,4 +46,15 @@ void swap(int *a, int *b)
     int temp = *a;
     *a = *b;
     *b = temp;
+}
+
+int main(void)
+{
+    int arr[6] = {4, 1, 6, 10, 2, 11};
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    quick_sort(arr, 0, n - 1);
+
+    print_array(arr, n);
 }
