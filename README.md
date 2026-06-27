@@ -19,14 +19,14 @@ cd dsa
 ```bash
 # Run Algorithm
 cd algorithms/filename
-gcc algorithm_name.c -o ../build/algorithm_name
+gcc -I../include ../directory/file.c file.c -o ../build/file
 ../build/./algorithm_name
 ```
 
 ```bash
 # Run Data-Structure
 cd data_structures/filename
-gcc data_structure_name.c -o ../build/data_structure_name
+gcc -I../include ../directory/file.c file.c -o ../build/file
 ../build/./data_structure_name
 ```
 
@@ -35,14 +35,17 @@ gcc data_structure_name.c -o ../build/data_structure_name
 <details>
     <summary>Data-structures</summary>
     <ul>
-        <li></li>
+        <li>Not yet</li>
     </ul>
 </details>
 
 <details>
     <summary>Algorithms</summary>
     <ul>
-        <li></li>
+        <li>Two Sum</li>
+        <li>Three Sum</li>
+        <li>Closest to Zero</li>
+        <li>Quick Sort</li>
     </ul>
 </details>
 
