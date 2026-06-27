@@ -47,14 +47,3 @@ void swap(int *a, int *b)
     *a = *b;
     *b = temp;
 }
-
-int main(void)
-{
-    int arr[6] = {4, 1, 6, 10, 2, 11};
-
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    quick_sort(arr, 0, n - 1);
-
-    print_array(arr, n);
-}
