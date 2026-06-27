@@ -18,14 +18,14 @@ cd dsa
 
 ```bash
 # Run Algorithm
-cd algorithms/filename
+cd algorithms/
 gcc -I../include ../directory/file.c file.c -o ../build/file
 ../build/./algorithm_name
 ```
 
 ```bash
 # Run Data-Structure
-cd data_structures/filename
+cd data_structures/
 gcc -I../include ../directory/file.c file.c -o ../build/file
 ../build/./data_structure_name
 ```
