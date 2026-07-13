@@ -44,8 +44,13 @@ gcc -I../include ../directory/file.c file.c -o ../build/file
     <ul>
         <li>Two Sum</li>
         <li>Three Sum</li>
+        <li>Four sum</li>
+        <li>Trapping Rain Water</li>
         <li>Closest to Zero</li>
         <li>Quick Sort</li>
+        <li>Max Subarray Sum</li>
+        <li>Max Sum</li>
+        <li>Prefix sums</li>
     </ul>
 </details>
 
