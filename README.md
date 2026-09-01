@@ -41,17 +41,60 @@ gcc -I../include ../directory/file.c file.c -o ../build/file
 
 <details>
     <summary>Algorithms</summary>
-    <ul>
-        <li>Two Sum</li>
-        <li>Three Sum</li>
-        <li>Four sum</li>
-        <li>Trapping Rain Water</li>
-        <li>Closest to Zero</li>
-        <li>Quick Sort</li>
-        <li>Max Subarray Sum</li>
-        <li>Max Sum</li>
-        <li>Prefix sums</li>
-    </ul>
+        <details>
+            <summary>Kadane</summary>
+            <ul>
+                <li>Maximum Subarray Sum</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Prefix sums</summary>
+            <ul>
+                <li>Equilibrium Index</li>
+                <li>Max Binary Sum</li>
+                <li>Max Occured Index</li>
+                <li>Max Subarray Modulo</li>
+                <li>Max Subarray</li>
+                <li>Minimum Cost For Buying all Coins</li>
+                <li>Prefix Sum</li>
+                <li>Subarray Equaling Zero</li>
+                <li>Probability Random Number Generator</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Sliding Window</summary>
+            <ul>
+                <li>Max Sum</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Sorting</summary>
+            <ul>
+                <li>Quick Sort</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Subarray Sum</summary>
+            <ul>
+                <li>Max Subarray Sum</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Suffix Sum</summary>
+            <ul>
+                <li>Suffix Sum</li>
+            </ul>
+        </details>
+        <details>
+            <summary>Two Pointers</summary>
+            <ul>
+                <li>Closest To Zero</li>
+                <li>Two Sum</li>
+                <li>Three Sum</li>
+                <li>Four Sum</li>
+                <li>Trapping Rain Water</li>
+            </ul>
+        </details>
 </details>
 
 ## Contributing
